@@ -1,0 +1,248 @@
+.mainbody{
+    background-image: url("../BG.png");
+    background-size: cover;
+    color: white;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.current-weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+.forecast-ui,
+.forecast-ui2,
+.additional-details,
+.additional{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.forecast-ui{
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.forecast-ui div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    gap: 10px;
+    font-weight: 300;
+}
+
+.forecast-ui div img{
+    height: 30px;
+    width: 30px;
+}
+
+.forecast-ui div h4,
+.forecast-ui2 div h4{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.forecast-ui2 {
+    margin-top: 20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 80%;
+    padding: 20px;
+}
+
+.forecast-ui2 div{
+    width: 100%;
+}
+
+.forecast-ui2 div div{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    gap: 10px;
+    padding: 5px 0px;
+    font-weight: 200;
+}
+
+.forecast-ui2 div div span,
+.forecast-ui2 div div h4{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.forecast-ui2 div div span{
+    text-align: left;
+    width: 60%;
+}
+.forecast-ui2 div div h4{
+    text-align: right;
+}
+.forecast-ui2 button{
+    margin-top: 20px;
+    background-color: #36424c;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 100px;
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    border: none;
+    transition: all 0.5s ease;
+}
+.forecast-ui2 button:hover{
+    background-color: #262c31;
+    cursor: pointer;
+}
+
+.addbox{
+    width: 100%;
+}
+
+.additem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.additem p:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.additem p:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.sunrise,
+.AQI{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.sunrise b{
+    height: 13px;
+    border-radius: 100px;
+    background-color: white;
+}
+.aqi{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    gap: 5px;
+}
+
+.aqi h6{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.AQI{
+    position: relative;
+}
+
+.AQI b{
+    height: 13px;
+    width: 100%;
+    border-radius: 100px;
+    background: linear-gradient(90deg,rgb(0, 255, 0),orange,rgb(219, 33, 5));
+}
+
+.AQI span{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+.box{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    gap: 20px;
+}
+
+.box div{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 37.5%;
+    border-radius: 10px;
+    padding: 20px;
+}
+.box p:nth-child(2) span{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.additional{
+    align-items: flex-start;
+}
+.additional h2{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 35%;
+    gap: 5px;
+    padding: 20px;
+}
+
+.container div span{
+    text-align: center;
+}
